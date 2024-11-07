@@ -11,33 +11,33 @@
     "antialiasingMode": "MSAA",
     "antialisingEnabledOnMobile": false,
     "folderProject": false,
-    "orientation": "default",
-    "packageName": "com.example.gamename",
+    "orientation": "landscape",
+    "packageName": "com.oritsuki.pixelheights",
     "pixelsRounding": true,
     "projectUuid": "481d5b57-f22d-4222-ae86-cf557dcf2f11",
     "scaleMode": "nearest",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "pixel-heights",
-    "description": "",
-    "author": "",
+    "description": "Introducing a  2D platformer where the main character, Kira, showcases her exceptional talent in losing keys and making questionable decisions. Help her retrace her steps and find the key she managed to misplace. It’s a tutorial in how not to keep track of your belongings. Enjoy the journey because Kira certainly didn’t.",
+    "author": "oriTsuki",
     "windowWidth": 800,
     "windowHeight": 600,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\Shaswat\\Downloads\\pixel-heights-1.0.0",
     "maxFPS": 60,
-    "minFPS": 20,
+    "minFPS": 30,
     "verticalSync": false,
     "platformSpecificAssets": {},
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
-      "backgroundImageResourceName": "",
-      "gdevelopLogoStyle": "light",
+      "backgroundImageResourceName": "Merged Full Background.png",
+      "gdevelopLogoStyle": "dark",
       "logoAndProgressFadeInDuration": 0.2,
       "logoAndProgressLogoFadeInDelay": 0,
-      "minDuration": 1.5,
+      "minDuration": 2,
       "progressBarColor": 16777215,
       "progressBarHeight": 20,
       "progressBarMaxWidth": 200,
@@ -48,7 +48,7 @@
     },
     "watermark": {
       "placement": "bottom-left",
-      "showWatermark": true
+      "showWatermark": false
     },
     "authorIds": [
       "7RqAMLlfTGOd6K9vI47Hm8fwNTg2"
@@ -1398,7 +1398,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "TETDAFAD Placehodler\n",
+          "string": "Dialogue stays here",
           "font": "PressStart2P-Regular.ttf",
           "textAlignment": "left",
           "characterSize": 24,
@@ -1421,7 +1421,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "TETDAFAD Placehodler\n",
+            "text": "Dialogue stays here",
             "font": "PressStart2P-Regular.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -1763,7 +1763,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5653158055126444,
+        "zoomFactor": 2.060679135269572,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3710,76 +3710,101 @@
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "House"
+            "folderName": "Interactive",
+            "children": [
+              {
+                "objectName": "OpenDoorTop"
+              },
+              {
+                "objectName": "Key"
+              },
+              {
+                "objectName": "Crystal"
+              }
+            ]
           },
           {
-            "objectName": "OpenDoorTop"
+            "folderName": "TextObjects",
+            "children": [
+              {
+                "objectName": "Objective"
+              },
+              {
+                "objectName": "KeyScore"
+              },
+              {
+                "objectName": "Scores"
+              }
+            ]
           },
           {
-            "objectName": "Tile12"
-          },
-          {
-            "objectName": "Tile1"
-          },
-          {
-            "objectName": "Tile16"
-          },
-          {
-            "objectName": "Tile7"
-          },
-          {
-            "objectName": "Tile8"
-          },
-          {
-            "objectName": "Tile9"
-          },
-          {
-            "objectName": "Tile10TiledSprite"
-          },
-          {
-            "objectName": "Tile3TiledSprite"
-          },
-          {
-            "objectName": "Tile33TiledSprite"
-          },
-          {
-            "objectName": "Tile30TiledSprite"
-          },
-          {
-            "objectName": "Tile34TiledSprite"
-          },
-          {
-            "objectName": "Tile4TiledSprite"
-          },
-          {
-            "objectName": "TreeTrunkThinTiledSprite"
-          },
-          {
-            "objectName": "TreeTrunkTiledSprite"
-          },
-          {
-            "objectName": "Crystal"
-          },
-          {
-            "objectName": "HouseTallForeground"
-          },
-          {
-            "objectName": "Scores"
-          },
-          {
-            "objectName": "KeyScore"
-          },
-          {
-            "objectName": "MergedFullBackground"
-          },
-          {
-            "objectName": "ParallaxBackgroundSky"
-          },
-          {
-            "objectName": "Key"
-          },
-          {
-            "objectName": "Objective"
+            "folderName": "Environment",
+            "children": [
+              {
+                "objectName": "HouseTallForeground"
+              },
+              {
+                "objectName": "House"
+              },
+              {
+                "folderName": "TiledSprites",
+                "children": [
+                  {
+                    "objectName": "MergedFullBackground"
+                  },
+                  {
+                    "objectName": "ParallaxBackgroundSky"
+                  },
+                  {
+                    "objectName": "TreeTrunkTiledSprite"
+                  },
+                  {
+                    "objectName": "TreeTrunkThinTiledSprite"
+                  },
+                  {
+                    "objectName": "Tile4TiledSprite"
+                  },
+                  {
+                    "objectName": "Tile34TiledSprite"
+                  },
+                  {
+                    "objectName": "Tile30TiledSprite"
+                  },
+                  {
+                    "objectName": "Tile33TiledSprite"
+                  },
+                  {
+                    "objectName": "Tile3TiledSprite"
+                  },
+                  {
+                    "objectName": "Tile10TiledSprite"
+                  }
+                ]
+              },
+              {
+                "folderName": "Tiles",
+                "children": [
+                  {
+                    "objectName": "Tile9"
+                  },
+                  {
+                    "objectName": "Tile8"
+                  },
+                  {
+                    "objectName": "Tile7"
+                  },
+                  {
+                    "objectName": "Tile16"
+                  },
+                  {
+                    "objectName": "Tile1"
+                  },
+                  {
+                    "objectName": "Tile12"
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -4009,11 +4034,6 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -4072,11 +4092,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4153,21 +4168,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": [
-            "runtimeScene.setBackgroundColor(100,100,240);",
-            ""
-          ],
-          "parameterObjects": "",
-          "useStrict": true,
-          "eventsSheetExpanded": false
         }
       ],
       "layers": [
