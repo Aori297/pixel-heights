@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 209,
+    "build": 217,
     "major": 5,
     "minor": 4,
     "revision": 0
@@ -11,7 +11,7 @@
     "antialiasingMode": "MSAA",
     "antialisingEnabledOnMobile": false,
     "folderProject": false,
-    "orientation": "landscape",
+    "orientation": "default",
     "packageName": "com.example.gamename",
     "pixelsRounding": true,
     "projectUuid": "481d5b57-f22d-4222-ae86-cf557dcf2f11",
@@ -20,7 +20,7 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "Platform",
+    "name": "pixel-heights",
     "description": "",
     "author": "",
     "windowWidth": 800,
@@ -50,9 +50,13 @@
       "placement": "bottom-left",
       "showWatermark": true
     },
-    "authorIds": [],
+    "authorIds": [
+      "7RqAMLlfTGOd6K9vI47Hm8fwNTg2"
+    ],
     "authorUsernames": [],
-    "categories": [],
+    "categories": [
+      "platformer"
+    ],
     "playableDevices": [],
     "extensionProperties": [],
     "platforms": [
@@ -66,32 +70,6 @@
     "resources": [
       {
         "alwaysLoaded": false,
-        "file": "assets/Cave Under Tile.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Cave Under Tile.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/95ba703db10c28440e0e9d52ab792c4af621ad2833911f5dde01c90774994a6b_Cave Under Tile.png",
-          "name": "Cave Under Tile.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 14.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 14.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/a1d28c6f56d81deb09d0a1fcd213ce615fe5c1db0a5239119466059f6547be01_Tile 14.png",
-          "name": "Tile 14.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Tile 12.png",
         "kind": "image",
         "metadata": "",
@@ -101,19 +79,6 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/940ef6d6d56c8fc341fb3fc8fce20c9c155e570c64f83c48d9403b5b7e97be5d_Tile 12.png",
           "name": "Tile 12.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 11.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/254b58e937f3ccba59695fd530d341a5bc5ec03d584f50ae4e8a3632677083a5_Tile 11.png",
-          "name": "Tile 11.png"
         }
       },
       {
@@ -131,84 +96,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Tile 13.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 13.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/864f445236f3b375bb39a70074216395ea3b9ac8728daea1cefc5eb41343bcdf_Tile 13.png",
-          "name": "Tile 13.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 15.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 15.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/ba701c68187547594152d4700cae7f78c7678cfbc0f62d7e702a909c52e56234_Tile 15.png",
-          "name": "Tile 15.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 18.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 18.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/aae647007307002e4ff30e944b69f77d93eaadd0cae2992cfae5ed32a059f702_Tile 18.png",
-          "name": "Tile 18.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 19.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 19.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/c1f762a258dfbdacd56dc87ace5cd25acd738c5590476552d4ca430ca5cec505_Tile 19.png",
-          "name": "Tile 19.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/63005055aafb5f8f6c12a28303d845184aeda515e61d46da8d1547c82e1b1915_Tile 2.png",
-          "name": "Tile 2.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 17.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 17.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/58cff4866595fe5fdd53792800c1a1443719dc423a2604cf1051a07a6be2c5bf_Tile 17.png",
-          "name": "Tile 17.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Tile 16.png",
         "kind": "image",
         "metadata": "",
@@ -218,175 +105,6 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/940ef6d6d56c8fc341fb3fc8fce20c9c155e570c64f83c48d9403b5b7e97be5d_Tile 16.png",
           "name": "Tile 16.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 22.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 22.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/f7ef24eb32eadc114d26253f3affd2d423ebc43f9b57c06c6726ce2ff94ca4f4_Tile 22.png",
-          "name": "Tile 22.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 20.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 20.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/0b5c29d7392c26c7dd23cb7f0726695a6375456c316f9ef7112a1c8f49aa18e1_Tile 20.png",
-          "name": "Tile 20.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 27.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 27.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/2dac686992901d6581509ccecbe97f87eaaffc3eaa15af039a99ec6a074cf120_Tile 27.png",
-          "name": "Tile 27.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 25.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 25.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/5ff1544aafc66a327da95493206b7f8498039dcca2de807b7c6ad1c94e3fcb6c_Tile 25.png",
-          "name": "Tile 25.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 21.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 21.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/201235fea211ddc1179e736472572ebfa09937312936d1ac15a18b1510e38b3a_Tile 21.png",
-          "name": "Tile 21.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 23.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 23.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/b17e02af9a465e4c565a36da71794c79e5fbfe30e214adc7f8532d4e5979c7cd_Tile 23.png",
-          "name": "Tile 23.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 24.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 24.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/c891fbc2bad3e286d1a9b357b68ba587e6ffe5ea25df76986503dd4fa92f6ae4_Tile 24.png",
-          "name": "Tile 24.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 29.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 29.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/3b7eebc19998f973156d25533e4acd5eec7cbb0940011c9f0fa92962975e3f24_Tile 29.png",
-          "name": "Tile 29.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 26.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 26.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/65bb59943192745a21ed0c583862590219c90d93774ca1c014cb4198751573d4_Tile 26.png",
-          "name": "Tile 26.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 31.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 31.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/5827e4e837725d7478852187545b0882c91bb704413875ffd6d71deb7d4ca62e_Tile 31.png",
-          "name": "Tile 31.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 36.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 36.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/0320b956b300ca6d2dd1f9848e3174442042e3fbede69fe769afce1b04d1b1da_Tile 36.png",
-          "name": "Tile 36.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 28.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 28.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/558459f8678c18230950da9494611847cc9beb15ce505fc4c11d376e0a176069_Tile 28.png",
-          "name": "Tile 28.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 37.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 37.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/5e39789edfa2de5778fa28fa5d4bb39c0b66913e90f4bffaf1ea46cdfaaa3a91_Tile 37.png",
-          "name": "Tile 37.png"
         }
       },
       {
@@ -413,32 +131,6 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/0b629d8a83930a0a03f154d30de1e111685e745fde98c6f10b391759d5ba7046_Tile 8.png",
           "name": "Tile 8.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 35.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 35.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/6f0ce5eba9deda4b62835308207e6f7bec6686f8134fc1053b95c6aecd67300e_Tile 35.png",
-          "name": "Tile 35.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Tile 32.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Tile 32.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/215d16673690fbf25324ab090393c647fef5d3f6e4309ae0b04c049aa718d730_Tile 32.png",
-          "name": "Tile 32.png"
         }
       },
       {
@@ -534,32 +226,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/tiled_Tile 6 tiled sprite.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tiled_Tile 6 tiled sprite.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/606b4c80378c145bdf077be760878363f0e2e06808c108692b0b99aad9acc6df_tiled_Tile 6 tiled sprite.png",
-          "name": "tiled_Tile 6 tiled sprite.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/tiled_Tile 5 tiled sprite.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tiled_Tile 5 tiled sprite.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Tiles/029461d78c8a571782fc46bf643d78bbd0a3164070f59792618f1e3a554d4d15_tiled_Tile 5 tiled sprite.png",
-          "name": "tiled_Tile 5 tiled sprite.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/tiled_Tree trunk thin tiled sprite.png",
         "kind": "image",
         "metadata": "",
@@ -651,123 +317,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Crystal_Open_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Crystal_Open_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Objects/e101ab16b304be42c9baa755d2d072da2d0c45b18afc3b1374446e6296a9485a_Crystal_Open_1.png",
-          "name": "Crystal_Open_1.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Crystal_Open_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Crystal_Open_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Objects/20bf74dfd1703026b06e2f74cc333f94af731064ff93e5b7afd1b768ad6c7111_Crystal_Open_2.png",
-          "name": "Crystal_Open_2.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Crystal_Open_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Crystal_Open_3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Objects/20bf74dfd1703026b06e2f74cc333f94af731064ff93e5b7afd1b768ad6c7111_Crystal_Open_3.png",
-          "name": "Crystal_Open_3.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Crystal_Open_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Crystal_Open_4.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Objects/19f38dea919325a56a6e47de1d55ba2163aa7622fc4bffab0c7dcd29ba8b0841_Crystal_Open_4.png",
-          "name": "Crystal_Open_4.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Crystal_Open_5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Crystal_Open_5.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Objects/0511cae5795dbf3dbb4fde3a999a922bc93dc39821283d8ea297468629aaf904_Crystal_Open_5.png",
-          "name": "Crystal_Open_5.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Crystal_Open_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Crystal_Open_6.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Objects/4b275de86b95c9a643ea54cca682616e4958302e5add288eaa99989a6fd5393b_Crystal_Open_6.png",
-          "name": "Crystal_Open_6.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Crystal_Open_7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Crystal_Open_7.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Objects/33ead90015c8896729fc930f26236ad22015480f73481e6b84b65ee7361e68ca_Crystal_Open_7.png",
-          "name": "Crystal_Open_7.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Crystal_Open_8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Crystal_Open_8.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Objects/33ead90015c8896729fc930f26236ad22015480f73481e6b84b65ee7361e68ca_Crystal_Open_8.png",
-          "name": "Crystal_Open_8.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Crystal_Open_9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Crystal_Open_9.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Objects/33ead90015c8896729fc930f26236ad22015480f73481e6b84b65ee7361e68ca_Crystal_Open_9.png",
-          "name": "Crystal_Open_9.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Merged Full Background.png",
         "kind": "image",
         "metadata": "",
@@ -804,116 +353,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Bat_Fly_1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Bat_Fly_1.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/63dace955b11725fdbb85ed90cfdcb7b34af1ed36e81e776f570767fa80e1cd7_Bat_Fly_1.png",
-          "name": "Bat_Fly_1.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Bat_Fly_2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Bat_Fly_2.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/5f9cff627ce60481f99b1016c2e23dd0a92201025c70e89cec2af6f2b166103a_Bat_Fly_2.png",
-          "name": "Bat_Fly_2.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Bat_Fly_3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Bat_Fly_3.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/0e1d8a747c447841766748ac5dce172bf70b4a21ef8e557cf45d6e2f6061c6bb_Bat_Fly_3.png",
-          "name": "Bat_Fly_3.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Bat_Fly_4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Bat_Fly_4.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/f817f51a7ef0f36f62c2d608285438e14ea81a823de8a7cc1120afb728dc20eb_Bat_Fly_4.png",
-          "name": "Bat_Fly_4.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Bat_Fly_6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Bat_Fly_6.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Enemies/37a5d17e6aab5db7c58c2943faf31790c13542533c581f95fbb162478910ac33_Bat_Fly_6.png",
-          "name": "Bat_Fly_6.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite2",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite3",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite4",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/NewSprite5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite5",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/NewTiledSprite.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -936,67 +375,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Bridge Handle_Big.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Bridge Handle_Big.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Misc/8a5a1ccbdbb5200a0374314e8c94e2493ba5ffcf2d7f749e16c800f0dfef13f9_Bridge Handle_Big.png",
-          "name": "Bridge Handle_Big.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Bridge Handle_Small.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Bridge Handle_Small.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Misc/54aeea21b58d6548a0eec07a5a51ef87f41a36234c6bdc375ae482b71e7d363d_Bridge Handle_Small.png",
-          "name": "Bridge Handle_Small.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Bridge Support.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Bridge Support.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Misc/6ad8e28d26774be607b0e668b7b7e18df9039c16025cfa639d0f16fd7a04c982_Bridge Support.png",
-          "name": "Bridge Support.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Bridge.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Bridge.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Platformer Pack/Misc/4a6c2d461ae269854c11c7046816d00cc5e57ef97d7686ed0c3e2f212dd6f0db_Bridge.png",
-          "name": "Bridge.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/BridgeLeft.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "BridgeLeft",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/House tall foreground.png",
         "kind": "image",
         "metadata": "",
@@ -1009,26 +387,6 @@
         }
       },
       {
-        "file": "assets/New sound effect.wav",
-        "kind": "audio",
-        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Random 3\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.07,\\\"sustainPunch\\\":90,\\\"decay\\\":0,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":5600,\\\"frequencySweep\\\":0,\\\"frequencyDeltaSweep\\\":0,\\\"repeatFrequency\\\":59.2,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"tangent\\\",\\\"interpolateNoise\\\":false,\\\"vibratoDepth\\\":0,\\\"vibratoFrequency\\\":10,\\\"squareDuty\\\":50,\\\"squareDutySweep\\\":0,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":15,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":9900,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":4400,\\\"highPassCutoffSweep\\\":9500,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect\"},\"localFilePath\":\"assets/New sound effect.wav\"}",
-        "name": "New sound effect",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/New sound effect2.wav",
-        "kind": "audio",
-        "metadata": "{\"extension\":\".wav\",\"jfxr\":{\"data\":\"{\\\"_version\\\":1,\\\"_name\\\":\\\"Walking\\\",\\\"_locked\\\":[],\\\"sampleRate\\\":44100,\\\"attack\\\":0,\\\"sustain\\\":0.08,\\\"sustainPunch\\\":60,\\\"decay\\\":0.14,\\\"tremoloDepth\\\":0,\\\"tremoloFrequency\\\":10,\\\"frequency\\\":1100,\\\"frequencySweep\\\":2000,\\\"frequencyDeltaSweep\\\":1600,\\\"repeatFrequency\\\":7,\\\"frequencyJump1Onset\\\":33,\\\"frequencyJump1Amount\\\":0,\\\"frequencyJump2Onset\\\":66,\\\"frequencyJump2Amount\\\":0,\\\"harmonics\\\":0,\\\"harmonicsFalloff\\\":0.5,\\\"waveform\\\":\\\"sine\\\",\\\"interpolateNoise\\\":true,\\\"vibratoDepth\\\":200,\\\"vibratoFrequency\\\":707,\\\"squareDuty\\\":40,\\\"squareDutySweep\\\":95,\\\"flangerOffset\\\":0,\\\"flangerOffsetSweep\\\":0,\\\"bitCrush\\\":16,\\\"bitCrushSweep\\\":0,\\\"lowPassCutoff\\\":22050,\\\"lowPassCutoffSweep\\\":0,\\\"highPassCutoff\\\":0,\\\"highPassCutoffSweep\\\":0,\\\"compression\\\":1,\\\"normalization\\\":true,\\\"amplification\\\":100}\",\"name\":\"New sound effect2\"},\"localFilePath\":\"assets/New sound effect2.wav\"}",
-        "name": "New sound effect2",
-        "preloadAsMusic": false,
-        "preloadAsSound": false,
-        "preloadInCache": false,
-        "userAdded": true
-      },
-      {
         "alwaysLoaded": false,
         "file": "assets/Open door top.png",
         "kind": "image",
@@ -1039,19 +397,6 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Abstract Platformer Pack (370 assets)/PNG/Other/e4aa6d39011105e74883d0502b45677ce48dbeee0fea0ab2bc846deed9de1d50_Open door top.png",
           "name": "Open door top.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Top Left Corner Wood Background Cutout.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "Top Left Corner Wood Background Cutout.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Tile Sets/Wood Background/Cutout/08e51f4f3d07baf382acadb8a7d5b50f366ae85a7cd42c3634fd945073edf644_Top Left Corner Wood Background Cutout.png",
-          "name": "Top Left Corner Wood Background Cutout.png"
         }
       },
       {
@@ -1108,19 +453,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/9patch_Redwood Background_all_64.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "9patch_Redwood Background_all_64.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Bomb Pack/Tile Sets/Redwood Background/28d2bd1335356fd7349d357600e2e02eb196d8f32fe8c7af27cf9499064e4b8a_9patch_Redwood Background_all_64.png",
-          "name": "9patch_Redwood Background_all_64.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/9patch_Wood Background_all_64.png",
         "kind": "image",
         "metadata": "",
@@ -1133,58 +465,11 @@
         }
       },
       {
-        "file": "assets/Desk Corner.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Desk Corner.glb",
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Furniture/furniture/d5fbb834bb36f7733dd7ff8dbf57a386237bd51d1b5671ca3fb42715c5204df6_Desk Corner.glb",
-          "name": "Desk Corner.glb"
-        }
-      },
-      {
         "alwaysLoaded": false,
         "file": "assets/NewSprite6.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite6.png\"}",
         "name": "NewSprite6",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "../../../Downloads/4c98da26-24df-43ea-9ae6-d1ecadb5ba8d_scaled.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\..\\Downloads\\4c98da26-24df-43ea-9ae6-d1ecadb5ba8d_scaled.jpg",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "4c98da26-24df-43ea-9ae6-d1ecadb5ba8d_scaled.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "4c98da26-24df-43ea-9ae6-d1ecadb5ba8d_scaled.jpg",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "4c98da26-24df-43ea-9ae6-d1ecadb5ba8d_scaled2.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "4c98da26-24df-43ea-9ae6-d1ecadb5ba8d_scaled2.jpg",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "4c98da26-24df-43ea-9ae6-d1ecadb5ba8d_scaled3.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "4c98da26-24df-43ea-9ae6-d1ecadb5ba8d_scaled3.jpg",
         "smoothed": false,
         "userAdded": true
       },
@@ -1258,20 +543,6 @@
         "userAdded": true
       },
       {
-        "file": "../../../Downloads/PressStart2P-Regular.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "..\\..\\..\\Downloads\\PressStart2P-Regular.ttf",
-        "userAdded": true
-      },
-      {
-        "file": "PressStart2P-Regular2.ttf",
-        "kind": "font",
-        "metadata": "",
-        "name": "PressStart2P-Regular2.ttf",
-        "userAdded": true
-      },
-      {
         "disablePreload": false,
         "file": "assets/startingdialogue.json",
         "kind": "json",
@@ -1287,221 +558,6 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
-        "userAdded": true
-      },
-      {
-        "disablePreload": false,
-        "file": "assets/New dialogue tree.json",
-        "kind": "json",
-        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/New dialogue tree.json\"}",
-        "name": "New dialogue tree",
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Idle.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Idle",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Idle2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Idle2",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Idle3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Idle3",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Idle4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Idle4",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Idle5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle5.png\"}",
-        "name": "Idle5",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Idle6.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle6.png\"}",
-        "name": "Idle6",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Idle7.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle7.png\"}",
-        "name": "Idle7",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Idle8.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Idle8",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Idle9.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Idle9",
-        "smoothed": false,
-        "userAdded": false
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Idle10.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle10.png\"}",
-        "name": "Idle10",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Idle11.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle11.png\"}",
-        "name": "Idle11",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Idle12.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle12.png\"}",
-        "name": "Idle12",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Idle13.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle13.png\"}",
-        "name": "Idle13",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Idle14.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle14.png\"}",
-        "name": "Idle14",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Idle15.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle15.png\"}",
-        "name": "Idle15",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Idle16.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle16.png\"}",
-        "name": "Idle16",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Idle17.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Idle17",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Idle18.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle18.png\"}",
-        "name": "Idle18",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Walk Left.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk Left.png\"}",
-        "name": "Walk Left",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Walk Left2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk Left2.png\"}",
-        "name": "Walk Left2",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Walk Left3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Walk Left3",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Walk Left4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk Left4.png\"}",
-        "name": "Walk Left4",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Walk Left5.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Walk Left5",
-        "smoothed": false,
         "userAdded": true
       },
       {
@@ -1542,33 +598,6 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/Walk Right.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Walk Right",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Walk Right3.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Walk Right3",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Walk Right4.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Walk Right4",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
         "file": "assets/Walk Right5.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Walk Right5.png\"}",
@@ -1604,16 +633,7 @@
         "userAdded": false
       },
       {
-        "alwaysLoaded": false,
-        "file": "assets/Player.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "Player",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "file": "Jorge Hernandez - Chopsticks.mp3",
+        "file": "bgm.mp3",
         "kind": "audio",
         "metadata": "",
         "name": "Jorge Hernandez - Chopsticks.mp3",
@@ -1621,6 +641,42 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle23.png\"}",
+        "name": "Idle23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Idle25.png\"}",
+        "name": "Idle25",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle2",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1682,7 +738,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Idle14",
+                  "image": "Idle",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1726,7 +782,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Idle15",
+                  "image": "Idle23",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1770,7 +826,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Idle18",
+                  "image": "Idle2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1814,7 +870,7 @@
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Idle16",
+                  "image": "Idle25",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2368,6 +1424,7 @@
             "text": "TETDAFAD Placehodler\n",
             "font": "PressStart2P-Regular.ttf",
             "textAlignment": "left",
+            "verticalTextAlignment": "top",
             "characterSize": 24,
             "color": "255;255;255"
           }
@@ -2706,7 +1763,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6672773998330126,
+        "zoomFactor": 0.5653158055126444,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2735,8 +1792,8 @@
           "name": "Player",
           "persistentUuid": "728bb29a-6079-48a8-b70f-6a402798fe85",
           "width": 22,
-          "x": 28,
-          "y": 380,
+          "x": 15,
+          "y": 379,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -4234,6 +3291,7 @@
             "text": "Score: 0\n",
             "font": "PressStart2P-Regular.ttf",
             "textAlignment": "left",
+            "verticalTextAlignment": "top",
             "characterSize": 15,
             "color": "255;255;255"
           }
@@ -4600,6 +3658,7 @@
             "text": "Key: 0\n",
             "font": "PressStart2P-Regular.ttf",
             "textAlignment": "left",
+            "verticalTextAlignment": "top",
             "characterSize": 15,
             "color": "255;255;255"
           }
@@ -4641,6 +3700,7 @@
             "text": "Objective: Find the key",
             "font": "PressStart2P-Regular.ttf",
             "textAlignment": "left",
+            "verticalTextAlignment": "top",
             "characterSize": 16,
             "color": "255;255;255"
           }
@@ -5093,6 +4153,21 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "runtimeScene.setBackgroundColor(100,100,240);",
+            ""
+          ],
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": false
         }
       ],
       "layers": [
